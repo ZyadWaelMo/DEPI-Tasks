@@ -1,0 +1,282 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+
+
+.section1 {
+    background-image: url('../images/background circles.png');
+    background-color: #001d37;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #001d37;
+
+    color: white;
+    height: 100rem;
+}
+
+.part1 {
+    padding-top: 90px;
+    padding-left: 90px;
+    font-size: 1.7rem;
+
+
+}
+
+.bigTitle {
+
+    font-size: 7rem;
+
+}
+
+.p1 {
+    margin: 10px 0;
+}
+
+.btn1,
+.btn2 {
+    margin-top: 20px;
+    padding: 10px 35px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: white;
+
+}
+
+.btn1 {
+    background-color: #475AFF;
+    border: none;
+}
+
+.btn2 {
+    background-color: #001d37;
+    border: white 1px solid;
+    margin-left: 5px;
+}
+
+
+
+.part2 {
+    padding: 90px;
+}
+
+.divP2 {
+    display: inline-block;
+    width: 23%;
+    height: 322px;
+    border: rgba(255, 255, 255, 24%) 1px solid;
+    vertical-align: top;
+
+    margin-right: 10px;
+
+}
+
+
+
+.iconP2 {
+    font-size: 4rem;
+    margin: 20px;
+}
+
+.divP2 h2 {
+    margin: 20px;
+    font-size: 2.4rem;
+}
+
+.divP2 p {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.section2 h2 {
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.section2 span {
+    font-size: 1.5rem;
+    margin: 0px 100px;
+}
+
+
+/* .cards{
+        display: flex;
+
+} */
+.card1 {
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    border: rgb(172, 172, 172) 0.1rem solid;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(146, 146, 146);
+
+}
+
+.card1 h2 {
+    font-size: 3rem;
+    margin: 0;
+
+
+}
+
+.card1 p {
+    font-size: 1.5rem;
+
+}
+
+.card1 h6 {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.titleIcon {
+    display: flex;
+}
+
+.card1 a {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+
+.card1 img {
+    width: 150px;
+    height: 200px;
+    border-radius: 2rem 0rem 0rem 2rem;
+
+}
+
+.smallContainer {
+    /* display: flex; */
+    margin-left: 2rem;
+    height: 150px;
+    vertical-align: top;
+
+}
+
+.alignCards1 {
+    display: flex;
+}
+
+.alignCards2 {
+    display: flex;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    margin: 5rem;
+}
+
+
+
+/* ############################################################################ */
+
+
+.mainForm {
+    margin: 5rem;
+
+}
+
+.align {
+    display: flex;
+    border: 0.1rem solid #dadada;
+    width: 70rem;
+    height: 50rem;
+
+}
+
+.align1 img {
+    width: 25rem;
+    height: 50rem;
+    position: absolute;
+}
+
+
+
+.align2 {
+    margin: 2rem 2.5rem;
+}
+
+.align2 input {
+    border: 1px solid #d8d8d8;
+    margin: 1.2rem 0;
+    width: 40rem;
+    height: 4rem;
+
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+}
+
+.lastInput {
+
+    height: 15rem !important;
+
+}
+.lastInput::placeholder {
+    padding-left: 1rem;
+padding-top: 0rem;
+}
+.align2 button {
+    border: 1px solid #757575;
+    background-color: #475AFF;
+    color: white;
+    border-radius: 5rem;
+    width: 11rem;
+    height: 4rem;
+    margin-left: 30rem
+}
+
+.xmark {
+    margin-left: 40rem;
+    font-size: 2rem;
+}
+
+.overlay {
+    position: relative;
+    top: 42rem;
+    text-align: left;
+    height: 8rem;
+    width: 25rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.overlay h2 {
+    font-size: 2.5rem;
+    margin: 0rem 1rem;
+}
+
+.overlay h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
