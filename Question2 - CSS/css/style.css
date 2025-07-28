@@ -1,0 +1,514 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+.headerNavs {
+    display: flex;
+    font-size: 1.6rem;
+    padding: 0 8rem;
+
+}
+
+.headerNavs ul {
+    display: flex;
+    list-style: none;
+    padding: 3rem 4rem;
+}
+
+.headerNavs ul li {
+
+    padding: 0 1rem;
+}
+
+.headerNavs a {
+    text-decoration: none;
+    color: black;
+    margin: 3rem 0rem;
+    /* padding: 3rem 4rem; */
+
+
+}
+
+.headerNavs button {
+    width: 20rem;
+    background: #FFA000;
+    background: linear-gradient(90deg, rgba(255, 160, 0, 1) 0%, rgba(255, 96, 0, 1) 100%);
+    color: white;
+
+
+}
+
+.listNav6 {
+    color: #ff7300;
+}
+
+.downArrow {
+    margin: 3rem 1rem;
+
+}
+
+.lineUp {
+    width: 0.1rem;
+    height: 8rem;
+    background-color: #bdbdbd;
+    margin: 0 1rem;
+}
+
+
+
+.back1 {
+    background: #6D6C6D;
+    background: linear-gradient(90deg, rgba(109, 108, 109, 1) 0%, rgba(36, 36, 37, 1) 100%);
+}
+
+.section1 {
+
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.part1 {
+    padding: 2rem 0;
+
+}
+
+.span1 {
+    color: #ff7300;
+    padding-left: 1.5rem;
+}
+
+.lineWide {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #bdbdbd;
+    margin: 0 0 4rem 0;
+}
+
+.part2 {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.part2one img {
+    height: 30rem;
+    width: 30rem;
+    box-shadow: #000000 5px 5px 100px 1px;
+}
+
+.part2two {
+    padding: 0 3rem;
+}
+
+.part2two hr {
+    width: 4rem;
+    height: 0.5rem;
+    border-radius: 5rem;
+    background-color: #FFA000;
+    margin: 2rem 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noBold {
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.card1 {
+    width: 30rem;
+    height: 35rem;
+    margin: 0 1rem;
+    position: absolute;
+    border: #dfdfdf 0.1rem solid;
+
+}
+
+.card1photo {
+    width: 30rem;
+    height: 15rem;
+}
+
+.title {
+    width: 8rem;
+    height: 2rem;
+    background-color: #EDF0F3;
+    text-align: center;
+    position: relative;
+    top: -1.1rem;
+    left: 2rem;
+}
+
+.card12 {
+    margin: 0 40rem;
+}
+
+.card13 {
+    margin: 0 80rem;
+}
+
+
+.manPhoto {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.cardP2 p {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+.photoTitle {
+    display: flex;
+    padding: 1rem 1rem;
+
+}
+
+.photoTitle h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.alignData {
+    padding: 1rem 1rem;
+}
+
+.clockIcon {
+    margin: 0rem 1rem;
+}
+
+.lastCardPt {
+    font-size: 1.5rem;
+    padding-left: 10rem;
+    color: black;
+}
+
+.lastCardPt a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.arrowRight {
+    color: #FF6000;
+
+}
+
+
+.alignData {
+    display: flex;
+}
+
+
+
+
+
+
+
+.section3 {
+    margin-top: 50rem;
+    margin-bottom: 20rem;
+}
+
+.section3P1 {
+    width: 50rem;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section3P1 h2 {
+    font-size: 3rem;
+
+}
+
+.section3P1 hr {
+    width: 3.6rem;
+    height: 0.4rem;
+    background-color: #FFA000;
+    margin: 2rem auto;
+}
+
+.section3P2 {
+    width: 70rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.section3P2 input {
+    border: #bbbbbb 0.1rem solid;
+    border-radius: 5rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+}
+
+.formP {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.formP input {
+    width: 30rem;
+}
+
+.formP1 {
+    margin-right: 5rem;
+}
+
+.inputWidth {
+    width: 66rem;
+}
+
+.radioFlex {
+    display: flex;
+}
+
+.radioFlex input {
+    margin: 0;
+}
+
+.radioFlex label {
+    margin: 0 1rem;
+    margin-left: 5rem;
+}
+
+.formParagraph {
+    width: 35rem;
+    font-size: 1.2rem;
+}
+
+.section3P2 button {
+    width: 25rem;
+    background: #FFA000;
+    background: linear-gradient(90deg, rgba(255, 160, 0, 1) 0%, rgba(255, 96, 0, 1) 100%);
+    color: white;
+    margin: 0 auto;
+    box-shadow: 10px 30px 60px rgb(0, 0, 0);
+}
+
+.formPandB {
+    display: flex;
+}
+
+
+
+
+.part1S4 {
+    height: 45rem;
+    background-color: #252425;
+    color: white;
+    position: relative;
+    border-bottom: #bbbbbb solid 0.1rem;
+}
+
+.listAll {
+    display: flex;
+    margin: 3rem;
+}
+
+.listAndPopup {
+    display: flex;
+}
+
+.list1 ul,
+.list2 ul,
+.list3 ul {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.list1 ul li,
+.list2 ul li,
+.list3 ul li {
+    font-size: 1.2rem;
+    margin: 3rem 0;
+}
+
+.list1,
+.list2,
+.list3 {
+    margin: 0 4rem;
+}
+
+.list1 hr,
+.list2 hr,
+.list3 hr {
+    width: 3.6rem;
+    height: 0.4rem;
+    background-color: #FFA000;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+.list1 h3,
+.list2 h3,
+.list3 h3 {
+    font-size: 1.5rem;
+}
+
+.popUp {
+    background-color: #373737CC;
+    backdrop-filter: blur(5rem);
+    width: 50rem;
+    height: 35rem;
+    position: absolute;
+    top: -7rem;
+}
+
+.popUp button {
+    background: #FFA000;
+    background: linear-gradient(90deg, rgba(255, 160, 0, 1) 0%, rgba(255, 96, 0, 1) 100%);
+    color: white;
+    width: 100%;
+    height: 30%;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+.iB {
+    margin-left: 10rem;
+}
+
+.followUs {
+    margin-top: 30rem;
+    font-size: 2rem;
+}
+
+.iF {
+    margin: 0 1rem;
+}
+
+.popupContent {
+    margin: 5rem 0 0 5rem;
+}
+
+.popupContent h3 {}
+
+.popupContent h2 {
+    margin-top: 2rem;
+
+    font-size: 2rem;
+}
+
+.popupContent a {
+    color: #FF6000;
+    text-decoration: none;
+}
+
+.spanPop {
+    font-size: 3rem;
+    margin-top: 7rem;
+}
+
+.spanPop span {
+    display: inline-block;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0));
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+
+.spanPop a {
+    font-size: 1.5rem;
+}
+
+.asideAndP2 {
+    display: flex;
+    color: white;
+
+}
+
+.aside {
+    background-color: #252425;
+    border-right: #bbbbbb solid 0.1rem;
+}
+
+.part2S4 {
+    background-color: #252425;
+    width: 100%;
+
+}
+
+.asideContent {
+    margin: 5rem;
+}
+
+.iconWithContent {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.iconContent {
+    font-size: 2rem;
+    margin: 0 1.5rem 0 0;
+}
+
+.aIcon {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.aIcon a{
+    text-decoration: none;
+    color: white;
+}
+.aaIcon{
+    color: #FF6000;
+}
+.locationFlex{
+    display: flex;
+}
+.locations{
+    margin: 1rem 0 0 5rem;
+}
+.location2 ,.location5,.location8{
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+footer {
+    height: 4rem;
+    font-size: 1.1rem;
+
+}
+footer p {
+    width: 50rem;
+    margin: 1.2rem 0 0 20rem;
+}
