@@ -1,0 +1,126 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+
+html {
+    font-size: 10px;
+}
+
+input[type="text"] {
+    padding: 0.2rem;
+
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70rem;
+    min-height: 40rem;
+
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: rgb(75, 0, 0);
+
+}
+
+.formHeader {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+
+}
+
+.formHeader input {
+    height: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.formHeader button {
+    margin-left: 2rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.gridRow {
+    display: contents;
+
+}
+
+.gridTable {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    min-height: 20rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.gridHeader {
+    background-color: rgb(117, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.1rem solid rgb(255, 255, 255);
+    height: 4rem;
+
+}
+
+.gridCell {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid rgb(255, 255, 255);
+    height: 4rem;
+    /* text-decoration: line-through; */
+
+
+}
+
+.errorMessage {
+    display: none;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    border: 0.1rem solid red;
+    border-radius: 0.5rem;
+}
+
+.gridCheck {
+    height: 2rem;
+    border-radius: 0;
+    box-shadow: 0;
+
+}
+.removeIcon{
+    cursor: pointer;
+}

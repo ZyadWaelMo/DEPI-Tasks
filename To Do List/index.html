@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+
+    <main>
+        <div class="background">
+            <div class="container">
+                <h2>To Do Organizer</h2>
+                <div class="form">
+                    <div class="formHeader">
+                        <input type="text" id="inputForm">
+                        <button id="buttonForm">Add</button>
+                    </div>
+
+                    <div class="gridTable">
+                        <div class="gridRow">
+                            <div class="gridHeader">Done</div>
+                            <div class="gridHeader">Task</div>
+                            <div class="gridHeader">Delete</div>
+                        </div>
+
+                        <div class="gridRow">
+                            <div class="gridCell"> <input type="checkbox" class="gridCheck"></div>
+                            <div class="gridCell">Study</div>
+                            <div class="gridCell"><i class="fa-solid fa-trash-can removeIcon"></i></div>
+
+                        </div>
+
+
+
+                        <div class="gridRow">
+                            <div class="gridCell"> <input type="checkbox" class="gridCheck"></div>
+                            <div class="gridCell">Gym</div>
+                            <div class="gridCell"><i class="fa-solid fa-trash-can removeIcon"></i></div>
+                        </div>
+
+
+
+                        <div class="gridRow">
+                            <div class="gridCell"> <input type="checkbox" class="gridCheck"></div>
+                            <div class="gridCell">Course</div>
+                            <div class="gridCell"><i class="fa-solid fa-trash-can removeIcon"></i> </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="errorMessage"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+    </footer>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

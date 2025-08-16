@@ -1,0 +1,61 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.egg,
+.basket {
+    width: 8rem;
+    height: 10rem;
+    position: absolute;
+}
+
+.egg {
+    height: 12rem;
+    top: -10rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.basket {
+    width: 14rem;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes fall {
+    from {
+        top: -10rem;
+    }
+
+    to {
+        top: calc(100vh - 10rem)
+    }
+}
+
+.falling {
+    animation: fall 3s linear;
+}

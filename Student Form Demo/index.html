@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <title>Student Form Demo</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+
+    <main>
+
+        <div class="background">
+
+            <div class="container">
+                <div class="form">
+                    <div class="section1">
+                        <span>Department</span>
+
+                        <label for="SC">SC</label><br>
+                        <input type="radio" id="sc" name="department" value="sc">
+
+                        <label for="CS">CS</label><br>
+                        <input type="radio" id="cs" name="department" value="cs">
+
+                        <label for="IS">IS</label>
+                        <input type="radio" id="is" name="department" value="is">
+                    </div>
+
+                    <div class="section2">
+                        <label for="studentName">Student Name</label>
+                        <input type="text" id="studentName">
+                    </div>
+
+                    <div class="section2">
+                        <label for="studentGrade">Student Grade</label>
+                        <input type="text" id="studentGrade">
+                    </div>
+
+
+                    <button class="addBtn">
+                        Add
+                    </button>
+
+
+                    <br>
+                    <span>Sort</span>
+                    <div class="dropDown">
+                        Name ↓
+                        <div class="dropDownContent">
+                            <ul>
+                                <li class="nameStd">Name</li>
+                                <li class="gradeStd">Grade</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <br>
+                    <span class="filterClick">Filter</span>
+                    <div class="dropDown dropDown2">
+                        All ↓
+                        <div class="dropDownContent dropDownContent2">
+                            <ul>
+                                <li class="allStd">All </li>
+                                <li class="successStd">Success Students </li>
+                                <li class="failStd">Failed Students</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="gridTable">
+                        <div class="rowTable">
+                            <div class="gridCells nameCell">Zyad</div>
+                            <div class="gridCells gradeCell">100</div>
+                            <div class="gridCells"><i class="fa-solid fa-trash-can removeIcon"></i></div>
+
+                        </div>
+                        <div class="rowTable">
+                            <div class="gridCells nameCell">Ahmed</div>
+                            <div class="gridCells gradeCell">50</div>
+                            <div class="gridCells"><i class="fa-solid fa-trash-can removeIcon"></i></div>
+
+                        </div>
+                        <div class="rowTable">
+
+                            <div class="gridCells nameCell">Ali</div>
+                            <div class="gridCells gradeCell">30</div>
+                            <div class="gridCells"><i class="fa-solid fa-trash-can removeIcon"></i></div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="error-message" id="errorMessage"></div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

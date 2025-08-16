@@ -1,0 +1,179 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+input[type="text"] {
+    padding: 0.2rem;
+
+}
+
+.background {
+
+    background-image: linear-gradient(to right, hsl(140, 79%, 59%) 0%, #38f9d7 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 50rem;
+    min-height: 40rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.2rem 3rem 2rem rgba(0, 0, 0, 0.2);
+    font-size: 1.8rem;
+
+}
+
+.form {
+    min-width: 90%;
+    margin: auto;
+    padding: 1rem 2rem 1em 2rem;
+}
+
+.section1 {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+
+}
+
+.section1 span {
+    margin: 0 1rem 0 0;
+    font-weight: bold;
+}
+
+.section1 input {
+    margin: 0 1rem 0 0;
+}
+
+.section1 label {
+    margin: 0 0.5rem 0 0;
+}
+
+.section2 {
+    margin: 1rem 0 0 0;
+
+}
+
+.section2 input {
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+}
+
+.addBtn {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    width: 7rem;
+    height: 3rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.dropDown {
+    min-width: 8rem;
+    height: 4rem;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    border: #000000 solid 0.1rem;
+    border-radius: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropDownContent {
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 8rem;
+    padding: 1rem 0;
+    margin-top: 0.1rem;
+    border: #c4c4c4 solid 0.1rem;
+
+}
+
+/* .dropDown:hover .dropDownContent {
+    display: block;
+} */
+.dropDownContent.show {
+    display: block;
+}
+
+.dropDownContent ul li:hover {
+    background-color: #cacaca;
+}
+
+.dropDown2 {
+    min-width: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dropDownContent2 {
+    min-width: 18rem;
+}
+
+.gridTable {
+    display: grid;
+    width: 100%;
+    min-height: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    grid-template-columns: 2fr 1fr 1fr;
+
+
+}
+
+.rowTable {
+    display: contents;
+}
+
+.gridCells {
+    border: 0.1rem solid black;
+
+
+    padding: 1rem 2rem;
+
+}
+
+.fa-trash-can {
+    color: red;
+    cursor: pointer;
+
+
+}
+
+
+.error-message {
+    display: none;
+    color: #ff0000;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffe6e6;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
